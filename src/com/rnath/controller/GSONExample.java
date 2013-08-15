@@ -27,7 +27,7 @@ public class GSONExample {
                     + "'id' : 2,"
                     + "'children' : 'true',"
                     + "'groups' : [{"
-                        + "'title' : 'Intro To Computing and Internet',"
+                        + "'title' : 'Pro Git',"
                         + "'id' : 3,"
                         + "'children': 'false',"
                         + "'groups':[]"
