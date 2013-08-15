@@ -49,9 +49,9 @@ public class GoogleSearch {
 			JsonParser parser = new JsonParser();
 			JsonElement jsonElement = parser.parse(jsonResults);
 			System.out.println("Is this json primitive " + jsonElement.isJsonPrimitive());
-			//JsonPrimitive p = jsonElement.getAsJsonPrimitive();
-		//	System.out.println(p.getAsString());
-		//	SearchResults results = gson.fromJson(jsonResults, SearchResults.class);
+			JsonPrimitive p = jsonElement.getAsJsonPrimitive();
+			System.out.println(p.getAsString());
+			SearchResults results = gson.fromJson(jsonResults, SearchResults.class);
 			
 
 			
