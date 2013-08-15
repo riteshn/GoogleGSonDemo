@@ -23,7 +23,7 @@ public class GSONExample {
                 + "'id' : 1,"
                 + "'children' : 'true',"
                 + "'groups' : [{"
-                    + "'title' : 'Level one CIS',"
+                    + "'title' : 'Pro Git',"
                     + "'id' : 2,"
                     + "'children' : 'true',"
                     + "'groups' : [{"
